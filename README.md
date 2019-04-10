@@ -1,19 +1,17 @@
-```
-    | PASSWORD LOCKER |
-```
+#    | PASSWORD LOCKER |
 
 
-# Description
+## Description
 This application is used to store users online account credentials like account user names, email and passwords. Be warned that each session is stored in the RAM. So as soon as the application is closed, all data stored is lost.
 
-# Specs
+## Specs
 1. Add users.
 2. Login as a user.
 3. Display stored credentials.
 4. Add credentials.
 5. Copy account Details to clipboard.
 
-# Setup
+## Setup
 
 First clone this repo:
 
@@ -43,16 +41,13 @@ If you run into an error, try running the code by specifying the python version,
 $ python3 interface.py
 ```
 
-# How it Works
+## How it Works
 
 This is a simple image describing how the application works.
 
+![usecaseDiagram](https://user-images.githubusercontent.com/40566766/55885094-59ca8500-5bba-11e9-8ea0-54fdb22a74f4.jpg)
 
-
-# Security
+## Security
 The user logs into the system using a password. The passwords are neither hashed nor salted, as I did not have enough time to implement these features.
 
-NOTE: 
-```
-This is an academic project. It therefore is in its beta version, hence may have some bugs.
-```
+#### NOTE: This is an academic project. It therefore is in its beta version, hence may have some bugs.
