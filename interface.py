@@ -148,7 +148,7 @@ class Home(Frame):
             
             
             if user_account['password'] == password:
-                tkinter.messagebox.showinfo('Successful Login!','Welcome ' + email + '.')
+                tkinter.messagebox.showinfo('Successful Login!','Welcome')
                 return self.canvas(new_user, user_account, email)
             else:
                 tkinter.messagebox.showerror('Ooops!','The password entered has been deemed un-authentic.')
@@ -247,7 +247,7 @@ class Home(Frame):
                 print('email at add-user-to-users-list: ',email,'\n\n')
 
                 if state:
-                    tkinter.messagebox.showinfo('Success',f'user {email} has been succesfully created.')
+                    tkinter.messagebox.showinfo('Success',f'{email} has been succesfully registered.')
                     self.login()
                 else:
                     tkinter.messagebox.showwarning('Ooops!',f'user {email} already exits. Try a different Email Address perhaps!')
