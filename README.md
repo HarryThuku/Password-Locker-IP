@@ -46,7 +46,6 @@ $ python3 interface.py
 This is a simple image describing how the application works.
 
 ![usecaseDiagram](https://user-images.githubusercontent.com/40566766/55885094-59ca8500-5bba-11e9-8ea0-54fdb22a74f4.jpg)
-![0e4HYjy-monster-hunter-3-wallpaper](https://user-images.githubusercontent.com/40566766/57361460-18ab9d80-7185-11e9-8f50-351025066f92.jpg)
 
 
 ## Security
